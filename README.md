@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a personal website for Darius Gourdine. Designed by Melchor Dominguez.
 
-## Getting Started
+## Check out the Deployment Site
 
-First, run the development server:
+This project is readily available to view at https://www.dariusbgourdineaudio.com/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Deployment Process
+
+The deployment process is done automatically by the .github/workflows/intergrate.yml file using GitHub Actions.
+
+## Run the website locally
+
+### Step 1: Clone the project
+
+```sh
+git clone https://github.com/melchord/melchord.github.io
+cd melchord.github.io/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2: Instal npm dependencies
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+cd src/
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Step 3: Build and run dev
 
-## Learn More
+```sh
+npm run build
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This starts up the local website on http://localhost:3000. As you make changes, the site freshes automatically in your browser. No need to Ctrl+C!.
