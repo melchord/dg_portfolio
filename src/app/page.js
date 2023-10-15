@@ -4,7 +4,7 @@ import Section from "../components/Section";
 export default function Home() {
 	return (
     <Section>
-			<h1>Hello, I'm Darius Gourdine</h1>
+			<h1>Hello, Im Darius Gourdine</h1>
 		</Section>
 	);
 }
