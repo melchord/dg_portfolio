@@ -22,7 +22,7 @@ const Section = () => {
 						<br />
 						<TypeAnimation 
 							sequence={[
-								"Darius Goudine",
+								"Darius Gourdine",
 								1000,
 								'Technical Sound Design',
 								1000,
